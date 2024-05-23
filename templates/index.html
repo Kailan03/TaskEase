@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskEase App-Welcome</title>
+  <style>
+    /* CSS Styles */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 20px;
+    }
+ /* Horizontal Menu Tabs */
+ .menu-tabs {
+      background-color: #007bff;
+      display: flex;
+      align-items: center; 
+      padding: 10px 20px; 
+    }
+
+    .menu-tabs a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu-tabs a:hover {
+      background-color: #0056b3;
+    }
+
+    .welcome-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .welcome-text {
+      flex: 1;
+      padding: 50px;
+    }
+
+    .welcome-text h2 {
+      color: #333;
+      font-size: 40px;
+      font-weight: 600;
+      margin-top: 0;
+    }
+
+    .welcome-text p {
+      color: #555;
+      font-size: 15px;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .login-form {
+      background-color: #007bff;
+      color: #fff;
+      padding: 50px;
+      width: 400px;
+    }
+
+    .login-form h2 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-top: 0;
+    }
+
+    .login-form input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #fff;
+      color: #007bff;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      margin-left: 50px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+    <div class="menu-tabs">
+        <a href="#">Home</a>
+        <a href="#">Tasks</a>
+      </div>    
+  <div class="container">
+    <div class="welcome-content">
+      <div class="welcome-text">
+        <h2>Welcome to TaskEase</h2>
+        <p>Our TaskEase Web Application is your go-to solution for managing tasks with ease and efficiency. Whether you're a busy professional, a student juggling multiple assignments, or a team collaborating on  Project. TaskEase empowers you to stay organized, focused, and productive. Say goodbye to overwhelm and hello to productivity with TaskEase! With a clean and intuitive interface, you can easily manage your tasks, assign them to team members, and track progress.</p>
+        <a href="#" class="btn" button id="getstarted">Get Started</a>
+      </div>
+      <div class="login-form">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <a href="#" class="btn">Sign In</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy;     TaskEase@Alx Project. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
