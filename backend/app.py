@@ -1,9 +1,10 @@
 #!/bin/env python3
-from flask import Flask, ,Blueprint, render_template
+from flask import Flask, Blueprint, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from config import Config
+from extensions import db 
 
 app = Flask(__name__)
 auth_bp = Blueprint('auth', __name__)

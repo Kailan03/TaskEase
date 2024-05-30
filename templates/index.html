@@ -108,24 +108,46 @@
       background-color: #007bff;
       color: #fff;
     }
-    .footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+    .btn1 {
+      display: flex;
+      justify-content: flex-end;
       position: absolute;
-      bottom: 0;
-      width: 100%;
-      margin-left: 50px;
-      margin-top: 40px;
+      top: 1rem;
+      right: 1rem;
     }
+    .btn2 {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      top: 1rem;
+      right: 10rem;
+    }
+    .footer {
+      background-color: #333333;
+      color: #fff;
+      padding: 10px 0;
+      text-align:center;
+      position: relative;
+      font-size: 15px;
+      bottom: 0;
+      height: 20px;
+      width: 100%;
+    }
+    .footer p {
+      margin: 10px;
+      line-height: 1.5px; 
+}
   </style>
 </head>
 <body>
     <div class="menu-tabs">
         <a href="#">Home</a>
         <a href="#">Tasks</a>
-      </div>    
+        <a href="#">Reports</a>
+        <a href="#" class="btn2" button id="Login">Login</a>
+        <a href="#" class="btn1" button id="getstarted1">Get Started</a>
+    </div>
+      </div>
   <div class="container">
     <div class="welcome-content">
       <div class="welcome-text">
@@ -141,9 +163,9 @@
       </div>
     </div>
   </div>
-  <footer>
-    <p>&copy;     TaskEase@Alx Project. All rights reserved.</p>
-  </footer>
+  <footer class="footer">
+      <p>&copy;     2024 TaskEase App @Alx Project. All rights reserved.</p>
+</footer>
   <script src="script.js"></script>
 </body>
 </html>
