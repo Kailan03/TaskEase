@@ -18,6 +18,8 @@
 # - SQLAlchemy: For database management and ORM (Object-Relational Mapping)
 # - CORS: For enabling Cross-Origin Resource Sharing
 # - JWTManager: For handling JSON Web Tokens for authentication
+# import sys
+# sys.path.append('/root/TaskEase')
 
 from flask import Flask,Blueprint, render_template, redirect, url_for, request, flash, jsonify
 from flask_sqlalchemy import SQLAlchemy
@@ -27,6 +29,7 @@ from config import config
 from routes.auth_routes import auth_bp
 from routes.extensions import db
 from routes.task_routes import task_bp
+
 
 # This section initializes the main Flask application object and configures it
 # using the settings defined in the config.py file.
