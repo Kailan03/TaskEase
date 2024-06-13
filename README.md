@@ -6,3 +6,7 @@ User Input Handling: The client-side is responsible for capturing user input, su
 Data Presentation: Data retrieved from the server, such as task lists and task details, is presented to users in a clear and organized manner. This involves rendering dynamic content based on the received data and updating the UI accordingly.
 Server-Side:
 The server-side of the TaskEase acts as the central processing unit, handling requests from clients, executing business logic, and managing data storage and retrieval. It consists of several interconnected components
+
+![image](https://github.com/Kailan03/TaskEase/assets/138704074/d2bb6af6-6451-4c1e-bed9-f6b78631b58f)
+![image](https://github.com/Kailan03/TaskEase/assets/138704074/27b10296-6f61-4c76-96bc-b73d735ee9aa)
+
